@@ -7,7 +7,7 @@ import React, { useState } from 'react'
 import masterplan from '@/public/home/MasterPlan.png'
 import map from '@/public/home/map.png'
 
-const page = () => {
+const Page = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -51,4 +51,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
